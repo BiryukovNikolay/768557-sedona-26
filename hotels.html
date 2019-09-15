@@ -18,22 +18,53 @@
     </header>
     <main>
       <h1>Бронирование гостиницы</h1>
-      <form>
+      <form action="" method="POST">
         <h2>Фильтр результатов поиска</h2>
+        <fieldset>
+        <legend>
           <p>Инфраструктура</p>
+        </legend>
           <ul>
-            <li>Бассейн</li>
-            <li>Парковка</li>
-            <li>WI-FI</li>
+            <li>
+              <input type="checkbox" name="pool" id="pool-box" checked> 
+              <label for="pool-box">Бассейн</label> 
+            </li>
+            <li>
+              <input type="checkbox" name="parking" id="parking-box"> 
+              <label for="parking-box">Парковка</label> 
+            </li>
+            <li>
+              <input type="checkbox" name="WI-FI" id="wi-fi-box"> 
+              <label for="wi-fi-box">WI_FI</label>
+            </li>
           </ul>
-          <p>Тип жилья</p>
+        </fieldset>
+        <fieldset>
+          <legend>
+            <p>Тип жилья</p>
+          </legend>
           <ul>
-            <li>Гостиница</li>
-            <li>Мотель</li>
-            <li>Апартаменты</li>
-         </ul>
-         <p>Стоимость в сутки (Р):</p>
-         <input type="submit" value="Показать">
+            <li>
+              <input type="checkbox" name="hotel" id="hotel-box" checked> 
+              <label for="hotel-box">Гостиница</label> 
+            </li>
+            <li>
+              <input type="checkbox" name="motel" id="motel-box" checked> 
+              <label for="motel-box">Мотель</label> 
+            </li>
+            <li>
+              <input type="checkbox" name="apart" id="apart-box" checked> 
+              <label for="apart-box">WI_FI</label>
+            </li>
+        </fieldset>
+        <fieldset>
+          <legend>
+            <p>Стоимость в сутки (Р):</p>
+          </legend>
+          <input type="text" name="min" id="min-price" value="от 0">
+          <input type="text" name="max" id="max-price" value="до 3000">
+        </fieldset>  
+          <button type="submit" aria-label="Показать отфильтрованные результаты">Показать</button>
       </form>
       <section>
         <h2>Результаты поиска</h2>
