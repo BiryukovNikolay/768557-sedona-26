@@ -21,9 +21,9 @@
       <form action="" method="POST">
         <h2>Фильтр результатов поиска</h2>
         <fieldset>
-        <legend>
-          <p>Инфраструктура</p>
-        </legend>
+          <legend>
+            Инфраструктура
+          </legend>
           <ul>
             <li>
               <input type="checkbox" name="pool" id="pool-box" checked> 
@@ -34,14 +34,14 @@
               <label for="parking-box">Парковка</label> 
             </li>
             <li>
-              <input type="checkbox" name="WI-FI" id="wi-fi-box"> 
-              <label for="wi-fi-box">WI_FI</label>
+              <input type="checkbox" name="wi-fi" id="wi-fi-box"> 
+              <label for="wi-fi-box">WI-FI</label>
             </li>
           </ul>
         </fieldset>
         <fieldset>
           <legend>
-            <p>Тип жилья</p>
+            Тип жилья
           </legend>
           <ul>
             <li>
@@ -54,17 +54,19 @@
             </li>
             <li>
               <input type="checkbox" name="apart" id="apart-box" checked> 
-              <label for="apart-box">WI_FI</label>
+              <label for="apart-box">Апартаменты</label>
             </li>
         </fieldset>
         <fieldset>
           <legend>
-            <p>Стоимость в сутки (Р):</p>
+            Стоимость в сутки (Р):
           </legend>
-          <input type="text" name="min" id="min-price" value="от 0">
-          <input type="text" name="max" id="max-price" value="до 3000">
+          <label for="min-price">от</label>
+          <input type="text" name="min" id="min-price" placeholder="0">
+          <label for="max-price">до</label>
+          <input type="text" name="max" id="max-price" placeholder="3000">
         </fieldset>  
-          <button type="submit" aria-label="Показать отфильтрованные результаты">Показать</button>
+          <button type="submit">Показать</button>
       </form>
       <section>
         <h2>Результаты поиска</h2>
