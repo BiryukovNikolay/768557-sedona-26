@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header {
+  background-color: darkgreen;
+  background-image: url("../img/backgrounds/polygon.png"), url("../img/backgrounds/background_photo.jpg");
+  background-position: bottom center, top center;
+  background-repeat: no-repeat;
+  background-size: 100%, cover;
+  padding-bottom: 50px;
+  width: 1200px;
+}
+
+
+.main-navigation {
+  line-height: 26px;
+  font-weight: bold;
+  
+}
+
+.advantages-city,
+.sort,
+.min-max,
+.results,
+.accommodation-sort,
+.infrastructure-sort,
+.social-block,
+.advantages-list, 
+.user-navigation {
+  list-style: none;
+}
+
+.main-navigation a {
+  color: #000000;
+}
+
+.main-navigation a:hover {
+  color: #81B3D2;
+}
+
+.main-navigation a:active {
+  color: #D8D8D8;
+}
+
+.main-navigation a:focus {
+  color: #81B3D2;
+}
+/*
+.main-navigation a:visited {
+  color: #766357;
+}
+
+*/
+.slogan {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.advantages p{
+  color: #333333;
+}
+
+.advantages-list li {
+  background-color: #EEEEEE;
+}
+
+.advantages-list h3 {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.advantages-list > li:first-child,
+.advantages-list > li:nth-child(2) {
+  background-color: #81B3D2;
+  background-image: url("../img/backgrounds/real_city.jpg");
+  background-size: 800px;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+
+.advantages-list > li:nth-child(2) {
+  background-image: url("../img/backgrounds/devil_bridge.jpg");
+}
+
+.advantages-city {
+  color: #000000;
+}
+
+
+.start-search span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.start-search-btn {
+  background-color: #766357;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.start-search-btn:focus,
+.start-search-btn:hover {
+  background-color: #604e43;
+}
+
+.start-search-btn:active {
+  background-color: #503e33;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+ 
+.filter {
+  background-color: #3E4C50;
+  background-image: url("../img/backgrounds/filter_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 1200px;
+  color: #fff;
+}
+
+.filter fieldset {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+
+.filter label {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+
+.filter-btn {
+  background: ;
+}
+
+.book-btn {
+  font-weight: bold;
+  background-color: #766357;
+  color: #ffffff;
+}
+.book-btn:focus,
+.book-btn:hover {
+  background-color: #604e43;
+}
+
+.book-btn:active {
+  background-color: #503e33;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+.info-btn {
+  font-weight: bold;
+  background-color: #81B3D2;
+  color: #fff;
+}
+
+.info-btn:focus,
+.info-btn:hover {
+  background-color: #669ec0;
+}
+
+.info-btn:active {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.hotel-title  a{
+  color: #000000;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.hotel-title a:focus,
+.hotel-title a:hover {
+  color: #81b3d2;
+}
+
+.hotel-title a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+
+.rating-btn {
+  background-color: #F2F2F2;
+  color: #666666;
+}
+
+.result-area h2 {
+  font-size: 21px;
+  font-weight: bold;
+
+}
+
+.sort button {
+  color: rgba(0, 0, 0, 0.3); 
+  border-bottom: #81b3d2 dotted;
+}
+
+.sort button:active {
+  color: #81b3d2;
+  border: none;
+}
+
+.sort button:hover
+.sort button:focus {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.results p {
+  color: #333333;
+}
+
