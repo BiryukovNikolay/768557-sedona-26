@@ -21,13 +21,13 @@
     </header>
     <main>
       <h1 class="visually-hidden">Бронирование гостиницы</h1>
-      <form class="filter" action="" method="POST">
+      <form class="hotels-form" action="" method="POST">
         <h2 class="visually-hidden">Фильтр результатов поиска</h2>
         <fieldset>
           <legend>
             Инфраструктура
           </legend>
-          <ul class="infrastructure-sort">
+          <ul class="form-list">
             <li>
               <input type="checkbox" name="pool" id="pool-box" checked> 
               <label for="pool-box">Бассейн</label> 
@@ -46,7 +46,7 @@
           <legend>
             Тип жилья
           </legend>
-          <ul class="accommodation-sort">
+          <ul class="form-list">
             <li>
               <input type="checkbox" name="hotel" id="hotel-box" checked> 
               <label for="hotel-box">Гостиница</label> 
@@ -69,7 +69,7 @@
           <label for="max-price">до</label>
           <input type="text" name="max" id="max-price" placeholder="3000">
         </fieldset>  
-          <button class="filter-btn" type="submit">Показать</button>
+          <button class="hotels-form-btn" type="submit">Показать</button>
       </form>
       <section class="result-area">
         <h2>Найдено: 3</h2>
@@ -89,27 +89,42 @@
               <h3 class="hotel-title"><a href="#">Amara resort & spa</a></h3>
               <p>гостиница</p> 
               <p>от 4000р</p>
-              <a class="info-btn" href="#">подробнее</a>
-              <a class="book-btn" href="#">забронировать</a>
-              <a class="rating-btn" href="">Рейтинг:8,5</a>
+              <a class="hotel-btn hotel-btn-info" href="#">подробнее</a>
+              <a class="hotel-btn hotel-btn-book" href="#">забронировать</a>
+              <ul class="stars">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              <a class="hotel-btn hotel-btn-rating" href="">Рейтинг:8,5</a>
             </li>
             <li>
               <img src="img/hotels/Desert.jpg" alt="изображение отеля 'Desert quail inn'" width="135" height="90">
               <h3 class="hotel-title"><a href="#">Desert quailinn</a></h3>
               <p>мотель</p>
               <p>от 3000р</p>
-              <a class="info-btn" href="#">подробнее</a>
-              <a class="book-btn" href="#">забронировать</a>
-              <a class="rating-btn" href="">Рейтинг:8,9</a>
+              <a class="hotel-btn hotel-btn-info" href="#">подробнее</a>
+              <a class="hotel-btn hotel-btn-book" href="#">забронировать</a>
+              <ul class="stars">
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              <a class="hotel-btn hotel-btn-rating" href="">Рейтинг:8,9</a>
             </li>
             <li>
               <img src="img/hotels/Villas.jpg" alt="изображение апартаментов 'Villas at poco diablo'" width="135" height="90">
               <h3 class="hotel-title"><a href="#">Villas at poco diablo</a></h3>
               <p>апартаменты</p> 
               <p>от 2000р</p>
-              <a class="info-btn" href="#">подробнее</a>
-              <a class="book-btn" href="#">забронировать</a>
-              <a class="rating-btn" href="">Рейтинг:9,2</a>
+              <a class="hotel-btn hotel-btn-info" href="#">подробнее</a>
+              <a class="hotel-btn hotel-btn-book" href="#">забронировать</a>
+              <ul class="stars">
+                <li></li>
+                <li></li>
+              </ul>
+              <a class="hotel-btn hotel-btn-rating" href="">Рейтинг:9,2</a>
             </li>
          </ul>
       </section>
