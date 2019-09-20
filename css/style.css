@@ -37,7 +37,6 @@ a {
 .main-navigation {
   line-height: 26px;
   font-weight: bold;
-  
 }
 
 .stars,
@@ -83,7 +82,7 @@ a {
   color: #333333;
 }
 
-.advantages-list li {
+.advantage-items {
   background-color: #EEEEEE;
 }
 
@@ -95,16 +94,11 @@ a {
 .advantages-list > li:first-child,
 .advantages-list > li:nth-child(2) {
   background-color: #81B3D2;
-  background-image: url("../img/backgrounds/real_city.jpg");
   background-size: 800px;
   background-repeat: no-repeat;
   color: #ffffff;
 }
 
-
-.advantages-list > li:nth-child(2) {
-  background-image: url("../img/backgrounds/devil_bridge.jpg");
-}
 
 .advantages-city {
   color: #000000;
@@ -157,10 +151,6 @@ a {
 }
 
 
-.hotels-form-btn {
-  background: ;
-}
-
 .hotel-btn {
   font-weight: bold;
   color: #ffffff;
@@ -193,7 +183,7 @@ a {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.hotel-title  a{
+.hotel-title  a {
   color: #000000;
   font-size: 21px;
   font-weight: bold;
