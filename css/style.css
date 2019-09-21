@@ -78,12 +78,10 @@ a {
   font-weight: bold;
 }
 
-.advantages p{
-  color: #333333;
-}
 
-.advantage-items {
-  background-color: #EEEEEE;
+.advantages-city,
+.advantages-item {
+  background-color: #f2f2f2;
 }
 
 .advantages-list h3 {
@@ -91,11 +89,8 @@ a {
   font-weight: bold;
 }
 
-.advantages-list > li:first-child,
-.advantages-list > li:nth-child(2) {
-  background-color: #81B3D2;
-  background-size: 800px;
-  background-repeat: no-repeat;
+.advantages-item-wide  {
+  background-color: #81b3d2;
   color: #ffffff;
 }
 
@@ -183,7 +178,7 @@ a {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.hotel-title  a {
+.hotel-title a {
   color: #000000;
   font-size: 21px;
   font-weight: bold;
