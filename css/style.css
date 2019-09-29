@@ -29,12 +29,12 @@ a {
   background-position: bottom center, top center;
   background-repeat: no-repeat;
   background-size: 100%, cover;
-  padding-bottom: 50px;
+  padding-bottom: 82px;
   width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 61px; 
+  margin-bottom: 40px; 
 }
 
 
@@ -70,6 +70,8 @@ a {
 
 .main-logo { 
   position: absolute;
+  margin-left: -69px;
+  left: 50%;
 }
 
 .user-navigation a {
@@ -114,7 +116,7 @@ a {
 }
 
 .big-logo {
-  padding-top: 70px;
+  padding-top: 75px;
 }
 
 .slogan {
@@ -123,7 +125,7 @@ a {
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
-  margin-bottom: 38px;
+  margin-bottom: 15px;
 }
 
 .main-info {
@@ -134,7 +136,7 @@ a {
 }
  
 .advantages > p {
-  margin-bottom: 56px;
+  margin-bottom: 52px;
 } 
 
 
@@ -152,21 +154,28 @@ a {
 }
 
 .advantages-list h3 {
+  width: 215px;
   font-size: 21px;
   font-weight: bold;
+  margin-left: 32px;
+  margin-bottom: 24px;
 }
 
-.advantages-item-wide  {
+.advantages-item-wide {
   background-color: #81b3d2;
   color: #ffffff;
   display: flex;
+}
+
+.advantages-item-wide p {
+  margin-bottom: 23px; 
 }
 
 .advantages-item-wide-title {
   vertical-align: middle;
   text-align: center;
   width: 280px;
-  padding: 46px 60px 60px 60px;
+  padding: 27px 60px 33px 60px;
 }
 
 
@@ -175,8 +184,8 @@ a {
   display: flex;
   justify-content: space-between;
   background-color: #ffffff;
-  padding-left: 73px;
-  padding-right: 63px; 
+  padding-left: 59px;
+  padding-right: 55px; 
 
 }
 
@@ -185,8 +194,8 @@ a {
   text-align: center;
   font-size: 14px;
   line-height: 21px;
-  padding-top: 161px;
-  padding-bottom: 85px;
+  padding-top: 143px;
+  padding-bottom: 65px;
   
 }
 
@@ -201,13 +210,13 @@ a {
 }
 
 .food {
-  background-image: url("../img/icons/icon-2.svg");
+  background-image: url("../img/icons/icon-3.svg");
   background-repeat: no-repeat;
   background-position:  center 60px;
 }
 
 .souvenirs {
-  background-image: url("../img/icons/icon-3.svg");
+  background-image: url("../img/icons/icon-2.svg");
   background-repeat: no-repeat;
   background-position:  center 60px;
 }
@@ -282,7 +291,7 @@ a {
 }
 
 .visit-sedona {
-  margin: 51px 0px 53px 132px;
+  margin: 49px -3px 0px 131px;
   font-size: 21px;
   font-weight: bold; 
 }
@@ -381,11 +390,11 @@ a {
 
 .form-list {
   font-size: 14px;
-  margin-top: 31px;
+  margin-top: 22px;
 }
 
 .form-list li {
-  margin-bottom: 36px;
+  margin-bottom: 25px;
 }
 
 .form-list label {
@@ -419,12 +428,12 @@ a {
 
 
 .filter-range-title {
-  margin-bottom: 9px;
+  margin-bottom: 6px;
 }
 
 .price-controls {
   position: relative;
-  height: 36px;
+  height: 32px;
   margin-bottom: 20px;
   border: 2px solid #ffffff;
   border-radius: 2px;
@@ -452,8 +461,8 @@ a {
 
 .price-controls .min-price,
 .price-controls .max-price {
-  width: 90px;
-  padding-left: 65px;
+  width: 35px;
+  padding-left: 64px;
 }
 
 .price-controls input {
@@ -512,7 +521,7 @@ a {
   font-weight: bold;
   border: none;
   padding: 0;
-  margin-right: 115px;
+  margin-right: 113px;
 }
 
 
@@ -529,7 +538,6 @@ a {
 
 .hotels-form-btn  {
   display: block;
-  margin: 35px auto;
   padding: 6px 35px;
   font-size: 14px;
   line-height: 20px;
@@ -539,6 +547,8 @@ a {
   border: 2px solid #ffffff;
   border-radius: 2px;
   cursor: pointer;
+  margin-left: 86px;
+  margin-bottom: 34px;
 }
 
 .hotels-form-btn:hover {
@@ -548,7 +558,7 @@ a {
 
 .result-header {
   display: flex;
-  margin: 31px 73px 31px 72px;
+  margin: 17px 73px 11px 72px;
   align-items: baseline;
 }
 
@@ -595,7 +605,7 @@ a {
 
 
 .sort {
-  margin-left: 40px;
+  margin-left: 27px;
   display: flex;
   align-items: baseline;  
 }
@@ -617,7 +627,10 @@ a {
   font-weight: bold;
   color: #ffffff;
   line-height: 21px;
-  padding: 6px 17px;
+  padding-top: 6px;
+  padding-bottom: 3px;
+  padding-left: 17px;
+  padding-right: 16px;
 }
 
 .hotel-btn-book {
@@ -634,7 +647,7 @@ a {
 }
 
 .hotel-btn-info {
-  margin-right: 6px;
+  margin-right: 4px;
   background-color: #81B3D2;
 }
 
@@ -666,7 +679,7 @@ a {
 
 .hotel-info-block {
   display: flex;
-  width: 182px;
+  width: 176px;
   justify-content: space-between;
 }
 
@@ -686,6 +699,8 @@ a {
 }
 
 .sort button {
+  font-size: 12px;
+  line-height: 9px;
   padding: 0;
   border: none;
   background-color: transparent;
@@ -707,7 +722,7 @@ a {
 .results p {
   color: #333333;
   margin-top: 8px;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 
