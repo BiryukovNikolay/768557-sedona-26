@@ -41,15 +41,15 @@
               </div>
               <section>
                 <ul class="advantages-city">
-                  <li class="advantages-housing">
+                  <li class="advantage advantages-housing">
                     <h3>Жилье</h3>
                     <p>Рекомендуем пожить в ноастоящем мотеле, все как в кино!</p>
                   </li>
-                  <li class="advantages-food">
+                  <li class="advantage advantages-food">
                     <h3>Еда</h3>
                     <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь</p>
                   </li>
-                  <li class="advantages-souvenirs">
+                  <li class="advantage advantages-souvenirs">
                     <h3>Сувениры</h3>
                     <p>Не только китайского, но и местного производства</p>
                   </li>
@@ -58,12 +58,12 @@
             </li>
             <li class="advantages-item">
               <div class="advantages-item-wide devil-bridge">
+                <img src="img/backgrounds/devil_bridge.jpg" alt="Фото моста 'Дьявола'"  width="800" height="256">
                 <div class="advantages-item-wide-title">
                   <h3>Там есть <br> мост дьявола</h3>
                   <p>-№2-</p>
                   <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
                 </div>
-                <img src="img/backgrounds/devil_bridge.jpg" alt="Фото моста 'Дьявола'"  width="800" height="256">
               </div>
             </li>
             <li class="advantages-item advantages-item-other">
@@ -99,14 +99,14 @@
                 <button class="calendar" aria-label="Выбрать дату в календаре"></button>
               </div>  
               <div class="people">
-                <div class="number-of-adult">
-                  <label for="amount-of-adult">Взрослые:</label>
-                  <button class="small-btn small-btn-minus" type="button" aria-label="Убрать одного взрослого">-</button>
+                <div class="number-wrapper">
+                  <label class="number-wrapper-adult" for="amount-of-people">Взрослые:</label>
+                  <button class="small-btn" type="button" aria-label="Убрать одного взрослого">-</button>
                   <input type="text" name="adult" placeholder="2" id="amount-of-adult">
-                  <button class="small-btn small-btn-plus" type="button" aria-label="Добавить одного взрослого">+</button>
+                  <button class="small-btn" type="button" aria-label="Добавить одного взрослого">+</button>
                 </div>
-                <div class="number-of-children"> 
-                  <label for="amount-of-children">Дети:</label>
+                <div class="number-wrapper"> 
+                  <label class="number-wrapper-children" for="amount-of-children">Дети:</label>
                   <button class="small-btn" type="button" aria-label="Убрать одного ребенка">-</button>
                   <input type="text" name="children" placeholder="0" id="amount-of-children">
                   <button class="small-btn" type="button" aria-label="Добавить одного ребенка">+</button>

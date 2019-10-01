@@ -206,32 +206,27 @@ a {
   
 }
 
+.advantage {
+  background-repeat: no-repeat;
+  background-position:  center 60px
+}
+
 .advantages-city p {
   color: #333333;
 }
 
 .advantages-housing {
   background-image: url("../img/icons/icon-1.svg");
-  background-repeat: no-repeat;
-  background-position:  center 60px;
 }
 
 .advantages-food {
   background-image: url("../img/icons/icon-3.svg");
-  background-repeat: no-repeat;
-  background-position:  center 60px;
 }
 
 .advantages-souvenirs {
   background-image: url("../img/icons/icon-2.svg");
-  background-repeat: no-repeat;
-  background-position:  center 60px;
 }
 
-.devil-bridge img {
-  display: block;
-  order: -1;
-}
 
 .advantages-item-other {
   padding-top: 48px;
@@ -882,19 +877,21 @@ a {
 
 }
 
-.number-of-adult,
-.number-of-children {
+
+.number-wrapper {
   display: flex;
   align-items: center; 
 }
 
-.number-of-adult label {
-  margin-right: 41px;
+.number-wrapper-adult {
+  margin-right: 40px;
 }
 
-.number-of-children label {
-  margin-right: 26px;
+
+.number-wrapper-children {
+  margin-right: 25px;
 }
+
 
 .small-btn {
   width: 38px;
