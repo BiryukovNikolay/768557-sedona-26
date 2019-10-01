@@ -41,15 +41,15 @@
               </div>
               <section>
                 <ul class="advantages-city">
-                  <li class="housing">
+                  <li class="advantages-housing">
                     <h3>Жилье</h3>
                     <p>Рекомендуем пожить в ноастоящем мотеле, все как в кино!</p>
                   </li>
-                  <li class="food">
+                  <li class="advantages-food">
                     <h3>Еда</h3>
                     <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь</p>
                   </li>
-                  <li class="souvenirs">
+                  <li class="advantages-souvenirs">
                     <h3>Сувениры</h3>
                     <p>Не только китайского, но и местного производства</p>
                   </li>
@@ -66,17 +66,17 @@
                 <img src="img/backgrounds/devil_bridge.jpg" alt="Фото моста 'Дьявола'"  width="800" height="256">
               </div>
             </li>
-            <li class="advantages-item other-advantages">
+            <li class="advantages-item advantages-item-other">
               <h3>Небольшая площадь</h3>
               <p>-№3-</p>
               <p>Все достопримечатнельности находятся очень близко</p>
             </li>
-            <li class="advantages-item other-advantages">
+            <li class="advantages-item advantages-item-other">
               <h3>Красивая дорога</h3>
               <p>-№4-</p>
               <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </li>
-            <li class="advantages-item other-advantages"> 
+            <li class="advantages-item advantages-item-other"> 
               <h3>Мало туристов</h3>
               <p>-№5-</p>
               <p>Большенство едет в гранд каньон и толпиться там</p>
@@ -86,8 +86,35 @@
         <section class="start-search">
           <h2 class="visually-hidden">Бронирование гостиниц в Седоне</h2>
           <span>Заинтересовались?</span>
-          <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+          <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
           <button class="start-search-btn">Поиск гостиницы в Седоне</button>
+          <section class="popup">
+            <form action="" method="POST">
+              <div class="date-select"> 
+                <label for="check-in-date">Дата заезда: <input class="date" type="text" name="check-in" placeholder="24 апреля 2017" id="check-in-date"></label>
+                <button class="calendar" aria-label="Выбрать дату в календаре"></button>
+              </div>  
+              <div class="date-select">   
+                <label for="check-out-date">Дата выезда:<input class="date"  type="text" name="check-out" placeholder="4 июля 2017" id="check-out-date"></label>
+                <button class="calendar" aria-label="Выбрать дату в календаре"></button>
+              </div>  
+              <div class="people">
+                <div class="number-of-adult">
+                  <label for="amount-of-adult">Взрослые:</label>
+                  <button class="small-btn small-btn-minus" type="button" aria-label="Убрать одного взрослого">-</button>
+                  <input type="text" name="adult" placeholder="2" id="amount-of-adult">
+                  <button class="small-btn small-btn-plus" type="button" aria-label="Добавить одного взрослого">+</button>
+                </div>
+                <div class="number-of-children"> 
+                  <label for="amount-of-children">Дети:</label>
+                  <button class="small-btn" type="button" aria-label="Убрать одного ребенка">-</button>
+                  <input type="text" name="children" placeholder="0" id="amount-of-children">
+                  <button class="small-btn" type="button" aria-label="Добавить одного ребенка">+</button>
+                </div>  
+              </div>
+              <button class="btn-search" type="submit">Найти</button>
+            </form>
+           </section>  
         </section>
         <section class="map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1676290.8861645097!2d-112.91597344406016!3d34.85608568531064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1567954149684!5m2!1sru!2sru" width="1200" height="593" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -95,41 +122,19 @@
       </div>
     </main>
     <footer>
-      <div class="container main-footer index-footer">
+      <div class="container main-footer main-footer-index">
         <p class="visit-sedona">#visitsedona</p>
         <ul class="social-block">
-          <li class="social social-tw"><a href="#"><span class="visually-hidden">Твиттер</span></a></li>
-          <li class="social social-fb"><a href="#"><span class="visually-hidden">Фейсбук</span></a></li>
-          <li class="social social-utube"><a href="#"><span class="visually-hidden">Ютюб</span></a></li>
+          <li><a class="social social-tw" href="#"><span class="visually-hidden">Твиттер</span></a></li>
+          <li><a class="social social-fb" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
+          <li><a class="social social-yt" href="#"><span class="visually-hidden">Ютюб</span></a></li>
         </ul>
-        <div class="copyright"><p>website by</p><a href="https://htmlacademy.ru/intensive/htmlcss"></a></div>
+        <div class="copyright">
+          <span>website by</span>
+          <a href="https://htmlacademy.ru/intensive/htmlcss"></a>
+        </div>
       </div>
     </footer>
     </div>
   </body>
-  <section class="popup">
-    <form action="" method="POST">
-      <div class="date-select"> 
-        <label for="check-in-date">Дата заезда: <input class="date check-in-date" type="text" name="check-in" placeholder="24 апреля 2017" id="check-in-date"></label>
-        <button class="calendar calendar-1"></button>
-        <label for="check-out-date">Дата выезда:<input class="date check-out-date"  type="text" name="check-out" placeholder="4 июля 2017" id="check-out-date"></label>
-        <button class="calendar calendar-2"></button>
-      </div>  
-      <div class="people">
-          <div class="number-of-adult">
-            <label for="amount-of-adult">Взрослые:</label>
-            <button class="small-btn small-btn-minus" type="button" aria-label="Убрать одного взрослого">-</button>
-            <input type="text" name="adult" placeholder="2" id="amount-of-adult">
-            <button class="small-btn small-btn-plus" type="button" aria-label="Добавить одного взрослого">+</button>
-          </div>
-          <div class="number-of-children"> 
-            <label for="amount-of-children">Дети:</label>
-            <button class="small-btn small-btn-minus" type="button" aria-label="Убрать одного ребенка">-</button>
-            <input type="text" name="children" placeholder="2" id="amount-of-children">
-            <button class="small-btn small-btn-plus" type="button" aria-label="Добавить одного ребенка">+</button>
-      </div>  
-      </div>
-      <button class="btn-search" type="submit">Найти</button>
-    </form>
-  </section>
 </html>
