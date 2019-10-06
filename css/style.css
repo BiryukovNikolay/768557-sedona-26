@@ -6,6 +6,8 @@ body {
   line-height: 21px;
   color: #000000;
   text-transform: uppercase;
+  position: relative;
+  z-index: 1;
 }
 
 a {
@@ -39,6 +41,7 @@ a {
 
 
 .main-navigation {
+  position: relative;
   line-height: 26px;
   font-weight: bold;
   display: flex;
@@ -259,7 +262,9 @@ a {
   align-items: center;
   padding-top: 53px;
   text-align: center;
+  z-index: 9;
 }
+
 
 .start-search p {
   line-height: 24px;
@@ -542,7 +547,7 @@ a {
   font-weight: bold;
   border: none;
   padding: 0;
-  margin-right: 113px;
+  margin-right: 117px;
 }
 
 
@@ -785,11 +790,24 @@ a {
 }
 
 
+@keyframes bounce {
+  0% {
+    transform: translateY(-300px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+
 .popup {
   background-color: #ffffff;
   position: absolute;
   top: 291px;
   width: 475px;
+  z-index: 0;
   box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
   padding-top: 54px;
   padding-left: 46px;
@@ -797,6 +815,12 @@ a {
   padding-bottom: 55px; 
   line-height: 26px;
   font-weight: bold;
+  animation: bounce 0.6s;
+}
+
+.popup-none {
+  display: none;
+  
 }
 
 .popup .date {
