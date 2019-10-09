@@ -46,7 +46,6 @@ a {
   margin-bottom: 40px; 
 }
 
-
 .main-navigation {
   position: relative;
   line-height: 26px;
@@ -119,12 +118,6 @@ a {
 .main-navigation a:focus {
   color: #81B3D2;
 }
-/*
-.main-navigation a:visited {
-  color: #766357;
-}
-
-*/
 
 .user-navigation {
   display: -webkit-box;
@@ -163,7 +156,6 @@ a {
   margin-bottom: 52px;
 } 
 
-
 .advantages {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -177,7 +169,6 @@ a {
           align-items: center;
   width: 1200px;
 }
-
 
 .advantages-city,
 .advantages-item {
@@ -224,7 +215,6 @@ a {
   padding: 27px 60px 33px 60px;
 }
 
-
 .advantages-city {
   color: #000000;
   display: -webkit-box;
@@ -270,7 +260,6 @@ a {
   background-image: url("../img/icons/icon-2.svg");
 }
 
-
 .advantages-item-other {
   padding-top: 48px;
   padding-bottom: 42px; 
@@ -278,8 +267,6 @@ a {
   text-align: center;
   width: 400px;
 }
-
-
 
 .advantages-item-other p {
   display: block;
@@ -313,12 +300,12 @@ a {
   z-index: 9;
 }
 
-
 .start-search p {
   line-height: 24px;
   padding-bottom: 31px;
   width: 440px;
 }
+
 .start-search span {
   font-size: 30px;
   font-weight: bold;
@@ -399,7 +386,7 @@ a {
 }
 
 .social:active {
-  background-image: #5496BD;
+  background-color: #5496BD;
 }
 
 .social-tw {
@@ -425,8 +412,6 @@ a {
 .social-yt { 
   background-image: url("../img/icons/youtube.svg");
 }
-
-
 
 .copyright {
   display: -webkit-box;
@@ -454,9 +439,6 @@ a {
   background-image: url("../img/logo/logo-htmlacademy-active.png");
 }
 
-
-
- 
 .hotels-form {
   background-color: #3E4C50;
   background-image: url("../img/backgrounds/filter_background.jpg");
@@ -506,8 +488,6 @@ a {
   left: 0px;
   top: -4px;
 }
-
-
 
 .filter-range-title {
   margin-bottom: 6px;
@@ -600,7 +580,6 @@ a {
   left: 80%;
 }
 
-
 .hotels-form fieldset {
   color: #ffffff;
   font-size: 16px;
@@ -609,7 +588,6 @@ a {
   padding: 0;
   margin-right: 117px;
 }
-
 
 .price-area {
   margin-right: -115px;
@@ -620,7 +598,6 @@ a {
   font-weight: normal;
   font-size: 14px;
 }
-
 
 .hotels-form-btn  {
   display: block;
@@ -695,7 +672,6 @@ a {
   background-image: url("../img/icons/icon-down-dir-active.svg");
 }
 
-
 .sort {
   margin-left: 27px;
   display: -webkit-box;
@@ -719,8 +695,6 @@ a {
   border-bottom: 1px rgba(0, 1, 1, 0.2) solid;
 }
 
-
-
 .hotel-btn {
   font-weight: bold;
   color: #ffffff;
@@ -734,6 +708,7 @@ a {
 .hotel-btn-book {
   background-color: #766357;
 }
+
 .hotel-btn-book:focus,
 .hotel-btn-book:hover {
   background-color: #604e43;
@@ -765,7 +740,6 @@ a {
   font-weight: bold;
 }
 
-
 .hotel-title a:focus,
 .hotel-title a:hover {
   color: #81b3d2;
@@ -784,7 +758,6 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 
 .hotel-btn-rating {
   font-weight: normal;
@@ -828,7 +801,6 @@ a {
   margin-bottom: 16px;
 }
 
-
 .stars {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -836,20 +808,13 @@ a {
   margin-left: auto;
 }
 
-
 .hotel-info {
   margin-left: 30px;
 }
 
-
  .hotel-info h3 {
   margin: 0;
 }
-
-
-
-
-
 
 .hotel-rating {
   margin-left: auto;
@@ -872,7 +837,6 @@ a {
   margin-left: 6px;
 }
 
-
 @-webkit-keyframes bounce {
   0% {
     -webkit-transform: translateY(-300px);
@@ -883,7 +847,6 @@ a {
             transform: translateY(0);
   }
 }
-
 
 @keyframes bounce {
   0% {
@@ -896,10 +859,12 @@ a {
   }
 }
 
-
-
+.popup-none {
+  display: none;
+}
 
 .popup {
+  display: block;
   background-color: #ffffff;
   position: absolute;
   top: 291px;
@@ -915,11 +880,6 @@ a {
   font-weight: bold;
   -webkit-animation: bounce 0.6s;
           animation: bounce 0.6s;
-}
-
-.popup-none {
-  display: none;
-  
 }
 
 .popup .date {
@@ -945,7 +905,6 @@ a {
   margin-bottom: 30px;
 }
 
-
 .date-select {
   position: relative;
   display: -webkit-box;
@@ -969,8 +928,6 @@ a {
   border: solid 2px #e5e5e5;
 }
 
-
-
 .calendar {
   border: none;
   background: transparent;
@@ -991,7 +948,6 @@ a {
   background-image: url("../img/icons/calendar-active.png");
 }
 
-
 .people {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1003,6 +959,7 @@ a {
   padding-left: 9px; 
   padding-right: 9px;
 }
+
 .people input {
   width: 37px;
   height: 36px;
@@ -1010,7 +967,6 @@ a {
   text-align: center;
 
 }
-
 
 .number-wrapper {
   display: -webkit-box;
@@ -1025,11 +981,9 @@ a {
   margin-right: 40px;
 }
 
-
 .number-wrapper-children {
   margin-right: 25px;
 }
-
 
 .small-btn {
   width: 38px;

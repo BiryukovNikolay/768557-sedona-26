@@ -1,5 +1,5 @@
   var book = document.querySelector(".start-search-btn");
-  var popup = document.querySelector(".popup");
+  var popup = document.querySelector(".popup-none");
   var form = popup.querySelector("form");
   var checkin = popup.querySelector("[name=check-in]");
   var checkout = popup.querySelector("[name=check-out]");
@@ -16,7 +16,7 @@
   }
 
   book.addEventListener("click", function (evt) {
-    popup.classList.toggle("popup-none");
+    popup.classList.toggle("popup");
     checkin.focus();
   });
   
